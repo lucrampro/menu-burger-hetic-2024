@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.icon-burger {
+  position: absolute;
+  z-index: 99;
+  height: 50px;
+  width: 50px;
+}
+.icon-burger .wrapper {
+  position: relative;
+}
+.icon-burger .trait {
+  height: 4px;
+  width: 30px;
+  background-color: black;
+  margin: 6px;
+  
+}
+
+.menu {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 1s;
+}
+
+.menu-hidden {
+  transform: translateX(-100%);
+}
+
+.menu p {
+  color: white;
+  margin: 15px;
+  text-align: center;
+}
+
+.icon-cross .trait-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  margin: 0px;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.icon-cross .trait-2 {
+  display: none;
+}
+.icon-cross .trait-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0px;
+  background-color: white;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
