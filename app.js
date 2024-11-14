@@ -4,3 +4,5 @@ buttonBurger.addEventListener('click', function() {
     menu.classList.toggle('menu-hidden')
     buttonBurger.classList.toggle('icon-cross')
 })
+
+// comment
